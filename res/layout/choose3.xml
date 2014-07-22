@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+
+     <ImageView
+        android:id="@+id/chooseFriends"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zz" />
+
+       <ImageView
+           android:id="@+id/fanhui3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/xuanze3"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="60dp"
+           android:clickable="true"
+           android:src="@drawable/fh" />
+
+       <ImageView
+           android:id="@+id/xuanze3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/fanhui3"
+           android:layout_alignLeft="@+id/kuaisu3"
+           android:layout_marginBottom="14dp"
+           android:clickable="true"
+           android:src="@drawable/xzds" />
+
+       <ImageView
+           android:id="@+id/kuaisu3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/xuanze3"
+           android:layout_centerHorizontal="true"
+           android:layout_marginBottom="19dp"
+           android:clickable="true"
+           android:src="@drawable/ksks" />
+    
+</RelativeLayout>

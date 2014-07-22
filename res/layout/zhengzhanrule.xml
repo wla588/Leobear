@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+        <ImageView
+        android:id="@+id/rule_zhengzhan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/alterdialog1"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="新手指引"
+        android:textColor="#FF4500"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="1.征战四方为网络实时对战，两位玩家在规定的时间内找成语，时间结束后找的多的一方获胜。"
+        android:textColor="#6959CD"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/text2"
+        android:layout_below="@id/text2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="2.进入本游戏后，玩家要先在玩家大厅选择对战玩家，向对方发送对战请求并等待对方接受。"
+        android:textColor="#6959CD"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/text3"
+        android:layout_below="@id/text3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="3.游戏时玩家必须按顺序点击组成成语的汉字以此来消除成语。"
+        android:textColor="#6959CD"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/text4"
+        android:layout_below="@id/text4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="4.胜利者可以得到积分和道具奖励，失败者获得积分但不获得相应道具。游戏时玩家可以使用道具来辅助找成语。"
+        android:textColor="#6959CD"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/text5"
+        android:layout_below="@id/text5"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="5.每找到一个成语奖励一分。"
+        android:textColor="#6959CD"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/rule_quit3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/canclebtn" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout   
+    android:id="@+id/RelativeLayout01"   
+    android:layout_width="fill_parent"   
+    xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:layout_height="wrap_content"   
+    android:paddingBottom="4dip"   
+    android:paddingLeft="12dip"  
+    android:paddingRight="12dip">
+
+<ImageView
+    android:id="@+id/ItemImage"
+    android:layout_width="100dp"
+    android:layout_height="100dp" />
+
+<TextView
+    android:id="@+id/ItemText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/button2"
+    android:layout_centerHorizontal="true" 
+    android:textColor="#E2F6FA"
+    android:text="text"
+    />
+
+<TextView
+    android:id="@+id/ItemTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/ItemText"
+    android:layout_alignTop="@+id/ItemImage"
+    android:singleLine="true" 
+    android:textSize="20dip"
+    android:textColor="#E2F6FA"
+    android:text="text"/>
+
+<Button
+    android:id="@+id/button2"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/ItemImage"
+    android:layout_marginLeft="14dp"
+    android:layout_toRightOf="@+id/ItemTitle"
+    android:text="text"
+    android:textColor="#E2F6FA" />
+  
+</RelativeLayout>  

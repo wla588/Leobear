@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b" >
+    
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"       
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+        
+        <com.example.execise_html.MySeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"
+            android:progressDrawable="@drawable/seekbar_img"
+            android:thumb="@drawable/thumb"
+             />
+
+        <Button
+            android:id="@+id/butt_sound1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xxx"/>  
+    </LinearLayout>
+    <RelativeLayout 
+        android:background="@drawable/back"
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp">
+        
+        <TableLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/background">
+      <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" 
+                 />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            
+        </TableRow>
+        
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton21"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton22"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton23"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton24"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton31"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton32"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton33"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton34"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+           
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton41"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton42"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton43"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton44"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton51"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton52"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton53"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton54"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton61"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton62"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton63"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton64"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton71"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" 
+                 />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton72"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton73"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton74"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton81"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" 
+                 />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton82"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton83"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton84"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton91"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" 
+                 />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton92"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton93"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            <com.example.execise_html.TextImageButton
+                android:id="@+id/imageButton94"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/imagebutton_press" />
+            
+        </TableRow>
+             
+    </TableLayout>
+    
+    
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tableLayout1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/butt_daoju1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xxx" />
+        <Button
+            android:id="@+id/butt_daoju2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xxx" />
+    </LinearLayout>
+    
+
+</RelativeLayout>

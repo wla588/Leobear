@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mina.leobear"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Loading"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            >
+        </activity>
+        <activity
+            android:name=".Register"
+             >
+        </activity>
+        <activity android:name=".Main"></activity>
+        <activity android:name=".Choose"></activity>
+        <activity android:name=".Choose2"></activity>
+        <activity android:name=".Choose3"></activity>
+        <activity android:name=".Friends"></activity>
+        <activity android:name=".Game"></activity>
+        <activity android:name=".Loading1"></activity>
+        <activity android:name=".Loading2"></activity>
+            <activity
+                android:name=".RuleDialog" 
+            	android:theme="@style/CustomDialog">
+            </activity>
+            <activity
+                android:name=".RuleDialog2" 
+            	android:theme="@style/CustomDialog">
+            </activity>
+            <activity
+                android:name=".RuleDialog3" 
+            	android:theme="@style/CustomDialog">
+            </activity>
+            
+        <activity
+            android:name=".MyListView1"
+         />
+         <activity
+            android:name=".MyListView2"
+         />
+         <activity
+            android:name=".DaokuActivity"
+         />
+         <activity
+            android:name=".MyListView4"
+           >
+        </activity>
+        <activity
+            android:name=".MyListView5"
+              >
+        </activity>
+         
+    </application>
+
+</manifest>
